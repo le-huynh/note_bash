@@ -1,0 +1,16 @@
+Linux Exercise
+
+1. Download the file to your computer from the following url:
+Mesculenta_147_gene.gff3.gz
+https://drive.google.com/file/d/0B172nc4dAaaOZ21neFZCRFFPcWs/view?resourcekey=0-GzQFwfC-8l_5xenmaRcv3w
+2. Log into HPC.
+3. Create a directory in your scratch directory called LinuxExercise
+4. Transfer the file to your new directory.
+5. gunzip the file and rename it to : Cassavagenes.txt
+6. Determine the number of different genes are present in the file.
+Hint – use the grep command to search for pattern
+
+7. Save the rows that contain the word “gene” as a separate file. 
+Call the new file “Genes.txt”
+
+8. How many genes are in Genes.txt ? Hint – count the number of lines using wc.
